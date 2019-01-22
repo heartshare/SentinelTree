@@ -82,7 +82,11 @@ Sentinel概述
             ④是检测机制，⑤和⑥是failover机制，⑦是更新配置机制。
 </pre>
 
-<>
+###alibaba sentinel
+![](https://i.imgur.com/IugsAtp.png)
+
+削峰填谷
+![](https://i.imgur.com/ajQaqWn.png)
 
 <pre>
 限流：
@@ -111,3 +115,20 @@ Sentinel概述
 <pre>
 轻巧
 </pre>
+
+###Alibaba Sentinel使用方法
+![](https://i.imgur.com/hvOnaJO.png)
+
+![](https://i.imgur.com/tLAA2DE.png)
+在Sentinel中，对那些被阻塞的请求，都是用catch到BlockException异常的方式进行处理的。
+
+定义流量规则
+![](https://i.imgur.com/4Z5Lpjy.png)
+
+流量规则加载
+![](https://i.imgur.com/4uPeNz7.png)
+
+###例子：
+![](https://i.imgur.com/pj8ZDsD.png)
+
+![](https://i.imgur.com/hXpkEpU.png)
